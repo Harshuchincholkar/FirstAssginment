@@ -1,0 +1,10 @@
+package com.harshada.assignment1;
+import java.sql.*;
+
+
+public class TryDriver {
+public static void main(String[] args) {
+	System.out.println("Welcome to Database");
+}
+
+}

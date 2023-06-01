@@ -1,0 +1,8 @@
+package com.harshada.assignment1;
+
+//Write a program to accept prodid, display the mobile data and ask "Do you want to delete?" if "yes" delete the mobile from the table
+
+
+public class TryDeleteMobile {
+
+}

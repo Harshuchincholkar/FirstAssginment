@@ -1,0 +1,26 @@
+package com.harshada.assignment1;
+
+//Add new column "purpose varchar(50)" to the mobiles table using alter query
+
+import java.sql.*;
+
+public class TryAlterQuery {
+	public static void main(String[] args) {
+		Connection con;
+		Statement st;
+
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			con=DriverManager.getConnection("jdbc:mysql://b1oehy5f91utjrdvigyq-mysql.services.clever-cloud.com:3306/b1oehy5f91utjrdvigyq?user=uhyfgotpc52j30ch&password=FO0oJToG78PfEZQXc0CJ");
+			
+			st=con.createStatement();
+
+		}
+		catch(Exception e) {
+			System.out.println(e);
+		
+		}
+	}
+	
+
+}

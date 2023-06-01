@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>NewUser</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body style="margin-top: 40px;">
+    <div class="container">
+        <table style="border: 1px solid black none;height:600px;margin-left:100px" class="table">
+            
+         <td style="border:1px solid black none;width:35%">   
+        <form action="Registration" method="post">
+        
+            <table style="border:1px solid black none;height:500px;">
+            <h3 class="display-6"><u>New user registration</u></h3>
+            <br>
+            <td> 
+                <tr>
+   
+                    <td>UserID</td>
+                    <td><input type="text" name="uid" autocomplete="off" required class="form-control"></td>
+                    
+                </tr>
+                <tr>
+                <div class="form-outline mb-3">
+                    <td>Password</td>
+                    <td><input type="password" name="psw" autocomplete="off" required class="form-control"></td>
+                    </div>
+                </tr>
+                <tr>
+                    <td>UserName</td>
+                    <td><input type="text" name="unm" autocomplete="off" required class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>UserType</td>
+                    <td><input type="text" name="utyp" value="customer" disabled class="form-control"></td>
+                </tr>
+                <tr>
+                    <td>UserStatus</td>
+                    <td><input type="text" name="ustat" value="active" disabled class="form-control"></td>
+                </tr>
+                <tr>
+                <td>Account Number
+                <td><input type="number" name="ano" autocomplete="off" required class="form-control">
+                </tr>
+                <tr>
+                    <td>Branch</td>
+                    <td>
+                        <select name="brn" class="form-control">
+                            <option value="mumbai">Mumbai</option>
+                            <option value="london">London</option>
+                            <option value="dubai">Dubai</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td><input type="tel" name="mob" autocomplete="off" required class="form-control"></td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                  
+                    <td><div class="d-grid gap-2">
+                                    <input type="submit" value="Register"
+                                      class="btn btn-outline-info">
+                                </div></td>
+                    
+                </tr>
+                 
+            </td>
+            
+            </table>
+            <p class="text-center text-muted mt-4 mb-0">Have already an account? <a href="index.jsp"
+                                    class="fw-bold text-body"><u>Login here</u></a>
+                  </p>
+        </form>
+        </td>
+        <td><img src="networking3.jpeg.jpg" width="550px" height="650"></td>
+</table>
+    </div>
+
+</body>
+</html>

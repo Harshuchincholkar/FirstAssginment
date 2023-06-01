@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>hidden</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body style="margin-top: 40px;">
+    <div class="container">
+        <h2 class="display-4">Hidden form data</h2>
+        <hr>
+        <form action="ShowCars.jsp" method="post">
+            <table>
+                <tr>
+                    <td>Company</td>
+                    <td><input type="text" name="comp" autocomplete="off" required class="form-control"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="hidden" name="type" value="hatchback"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Search"></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+
+</body>
+</html>

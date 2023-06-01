@@ -1,0 +1,37 @@
+package com.harshada.assignment1;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class TryShowAllMobiles {
+	public static void main(String[] args) {
+		Connection con;
+		Statement st;
+		ResultSet rs;
+		
+		try
+		{
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			con=DriverManager.getConnection("jdbc:mysql://b1oehy5f91utjrdvigyq-mysql.services.clever-cloud.com:3306/b1oehy5f91utjrdvigyq?user=uhyfgotpc52j30ch&password=FO0oJToG78PfEZQXc0CJ");
+			st=con.createStatement();
+			rs=st.executeQuery("select * from MOBILES");
+			
+			while(rs.next())
+			{
+				System.out.println(rs.getInt("prodid")+"  |  "+rs.getString("modelname")+"  |  "+rs.getString("company")+"  |  "+rs.getString("connectivity")+"  |  "+rs.getString("ram")+"  |  "+rs.getString("rom")+"  |  "+rs.getString("color")+"  |  "+rs.getString("screen")+"  |  "+rs.getInt("battery")+"  |  "+rs.getString("processor")+"  |  "+rs.getFloat("price")+"  |  "+rs.getFloat("rating"));
+			}
+			
+			con.close();
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+
+}
+
+
+

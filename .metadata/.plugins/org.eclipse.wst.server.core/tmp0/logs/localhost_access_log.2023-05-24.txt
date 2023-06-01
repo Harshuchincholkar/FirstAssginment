@@ -1,0 +1,14 @@
+127.0.0.1 - - [24/May/2023:07:31:16 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [24/May/2023:07:31:18 +0530] "GET /NetBankingProject/ HTTP/1.1" 200 2401
+127.0.0.1 - - [24/May/2023:07:31:18 +0530] "GET /NetBankingProject/bootstrap.min.css HTTP/1.1" 200 232691
+127.0.0.1 - - [24/May/2023:07:31:18 +0530] "GET /NetBankingProject/networking.jpeg HTTP/1.1" 200 77208
+127.0.0.1 - - [24/May/2023:07:33:06 +0530] "GET /NetBankingProject/NewUser.html HTTP/1.1" 304 -
+127.0.0.1 - - [24/May/2023:07:33:06 +0530] "GET /NetBankingProject/networking3.jpeg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [24/May/2023:07:33:16 +0530] "GET /NetBankingProject/index.jsp HTTP/1.1" 200 2401
+127.0.0.1 - - [24/May/2023:07:33:20 +0530] "GET /NetBankingProject/TryHidden.html HTTP/1.1" 200 913
+127.0.0.1 - - [24/May/2023:08:00:48 +0530] "GET /NetBankingProject/index.jsp HTTP/1.1" 200 2401
+127.0.0.1 - - [24/May/2023:08:00:50 +0530] "GET /NetBankingProject/ShowCars.jsp?comp=volkswagen&type=hatchback HTTP/1.1" 200 535
+127.0.0.1 - - [24/May/2023:08:00:56 +0530] "GET /NetBankingProject/ShowCars.jsp?comp=volkswagen&type=hatchback HTTP/1.1" 200 535
+127.0.0.1 - - [24/May/2023:08:04:35 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [24/May/2023:08:04:35 +0530] "GET /NetBankingProject/ HTTP/1.1" 200 2401
+127.0.0.1 - - [24/May/2023:08:04:39 +0530] "GET /NetBankingProject/ShowCars.jsp?comp=volkswagen&type=hatchback HTTP/1.1" 200 535
